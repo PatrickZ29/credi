@@ -29,6 +29,14 @@
             section {
                 scroll-margin-top: 80px;
             }
+            /* Transición suave para las tarjetas */
+            .transition-card {
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+            }
+            .transition-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+            }
         </style>
     </head>
 
@@ -122,7 +130,7 @@
                             </div>
                             <h4 class="fw-bold text-dark">Inversiones a Plazo Fijo</h4>
                             <p class="text-muted mb-0">
-                                Pólizas de inversión con tasas altamente competitivas. Al adquirir tu product recibes un certificado válido que detalla tu capital y rendimiento.
+                                Pólizas de inversión con tasas altamente competitivas. Al adquirir tu producto recibes un certificado válido que detalla tu capital y rendimiento.
                             </p>
                         </div>
                     </div>
@@ -193,12 +201,19 @@
             <div class="container-fluid p-0">
                 <!-- Quiénes somos -->
                 <div class="row g-0 align-items-center">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/Equipo.png'); min-height: 450px; background-size: cover; background-position: center;"></div>
+                    <!-- Cuadrícula de Dos Imágenes -->
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="row g-0">
+                            <div class="col-6 showcase-img" style="background-image: url('assets/img/Equipo.png'); min-height: 450px; background-size: cover; background-position: center; border-right: 2px solid #f8f9fa;"></div>
+                            <div class="col-6 showcase-img" style="background-image: url('assets/img/Equipo2.png'); min-height: 450px; background-size: cover; background-position: center;"></div>
+                        </div>
+                    </div>
+                    <!-- Columna de Texto -->
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text p-5">
                         <span class="text-primary fw-bold text-uppercase small">Nuestra Historia</span>
                         <h2 class="fw-bold text-dark mb-3 mt-1">¿Quiénes Somos?</h2>
                         <p class="lead text-muted mb-4 fs-6 text-start">
-                            La Entidad Financiera <strong>C.A CrediLibertadores</strong> fue fundada el 4 de abril de 2024. Surgimos como una iniciativa de la <em>Cooperativa de Buses Los Libertadores</em>, heredando su espíritu de compromiso colectivo y empoderamiento de la sociedad.
+                            La Entidad Financiera <strong>C.A CrediLibertadores</strong> fue founded el 4 de abril de 2024. Surgimos como una iniciativa de la <em>Cooperativa de Buses Los Libertadores</em>, heredando su espíritu de compromiso colectivo y empoderamiento de la sociedad.
                         </p>
                         <p class="text-muted fs-6">
                             Nos dedicamos a construir bienestar competitivo y justo mediante la promoción de la educación financiera, asegurando que cada socio cuente con las herramientas necesarias para tomar decisiones informadas.
@@ -377,7 +392,7 @@
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content border-0 shadow-lg rounded-4">
                     <div class="modal-header bg-primary text-white p-4">
-                        <h5 class="modal-title fw-bold id="contactoModalLabel">
+                        <h5 class="modal-title fw-bold" id="contactoModalLabel">
                             <i class="bi bi-person-lines-fill me-2"></i>Información de contacto
                         </h5>
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -468,14 +483,12 @@
                     </div>
                     <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
                         <a href="https://www.facebook.com/profile.php?id=61559400604423" target="_blank" rel="noopener" class="text-muted me-3 fs-4 text-decoration-none"><i class="bi-facebook"></i></a>
-                        <a href="https://www.tiktok.com/@credilibertadores" target="_blank" rel="noopener" class="text-muted me-3 fs-4 text-decoration-none"><i class="bi-tiktok"></i></a>
-                        <a href="https://wa.me/593958805350" target="_blank" rel="noopener" class="text-success fs-4 text-decoration-none"><i class="bi-whatsapp"></i></a>
+                        <a href="https://www.tiktok.com/@credilibertadores" target="_blank" rel="noopener" class="text-muted fs-4 text-decoration-none"><i class="bi-tiktok"></i></a>
                     </div>
                 </div>
             </div>
         </footer>
 
-        <!-- Botón Flotante de WhatsApp -->
         <a href="https://wa.me/593958805350?text=Hola,%20deseo%20más%20información%20sobre%20sus%20servicios%20financieros" 
            class="btn btn-success position-fixed bottom-0 end-0 m-4 rounded-circle d-flex align-items-center justify-content-center shadow-lg" 
            target="_blank" rel="noopener"
@@ -483,9 +496,7 @@
             <i class="bi bi-whatsapp"></i>
         </a>
 
-        <!-- Bootstrap Bundle with Popper JS via CDN -->
+        <!-- Bootstrap Bundle JS via CDN (Incluye Popper para Modals y Accordions) -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scripts.js"></script>
-
     </body>
 </html>
