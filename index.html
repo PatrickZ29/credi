@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Caja de Ahorro CrediLibertadores - Soluciones financieras en Ambato" />
+        <meta name="author" content="CrediLibertadores" />
+        <title>CrediLibertadores | Caja de Ahorro</title>
+
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+        <!-- Bootstrap Icons v1.11.3 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet" type="text/css" />
+
+        <!-- Bootstrap core CSS via CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="css/styles.css" rel="stylesheet" />
+        
+        <style>
+            /* Asegura un desplazamiento suave al hacer clic en el menú */
+            html {
+                scroll-behavior: smooth;
+            }
+            /* Margen superior para compensar el menú fijo al scrollear */
+            section {
+                scroll-margin-top: 80px;
+            }
+        </style>
+    </head>
+
+    <body id="inicio">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#inicio">
+                    <img src="assets/img/logo.png" alt="CrediLibertadores" height="45" class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#tasas">Tasas de Interés</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">Preguntas Frecuentes</a></li>
+                    </ul>
+                    <!-- Abre la ventana emergente de contacto -->
+                    <button class="btn btn-primary px-4 rounded-pill shadow-sm text-white fw-bold" data-bs-toggle="modal" data-bs-target="#contactoModal">
+                        <i class="bi bi-telephone-fill me-2"></i>Contáctanos
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Masthead-->
+        <header class="masthead py-5 text-center text-white bg-dark" style="background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url('assets/img/bg-masthead.jpg') no-repeat center center; background-size: cover; padding: 140px 0 !important;">
+            <div class="container position-relative">
+                <div class="row justify-content-center">
+                    <div class="col-xl-9">
+                        <h1 class="mb-3 fw-bold display-4">Impulsamos tu crecimiento financiero</h1>
+                        <p class="lead mb-5 opacity-90">
+                            Nacimos con el respaldo de la Cooperativa de Buses Los Libertadores. Ofrecemos créditos, ahorros e inversiones con enfoque productivo para el progreso de comerciantes, transportistas y emprendedores.
+                        </p>
+                        <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+                            <a href="#servicios" class="btn btn-light btn-lg px-4 py-3 rounded-pill fw-bold text-primary shadow">
+                                Conoce nuestros servicios
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Servicios -->
+        <section id="servicios" class="py-5 bg-light">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold text-dark">Nuestros Productos Financieros</h2>
+                    <p class="text-muted mt-2">Apoyamos de forma directa las iniciativas que generan empleo y dinamizan la economía local</p>
+                    <div class="bg-primary rounded mx-auto" style="width: 60px; height: 4px;"></div>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Créditos -->
+                    <div class="col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm p-4 text-center transition-card">
+                            <div class="d-inline-flex align-items-center justify-content-center text-primary rounded-circle mb-4 mx-auto" style="width: 80px; height: 80px; background-color: rgba(13, 110, 253, 0.1);">
+                                <i class="bi bi-cash-stack fs-1"></i>
+                            </div>
+                            <h4 class="fw-bold text-dark">Créditos Productivos</h4>
+                            <p class="text-muted mb-0">
+                                Financiamiento estratégico diseñado especialmente para impulsar emprendimientos, proyectos comerciales y el fortalecimiento de negocios locales.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Ahorros -->
+                    <div class="col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm p-4 text-center transition-card">
+                            <div class="d-inline-flex align-items-center justify-content-center text-success rounded-circle mb-4 mx-auto" style="width: 80px; height: 80px; background-color: rgba(25, 135, 84, 0.1);">
+                                <i class="bi bi-piggy-bank fs-1"></i>
+                            </div>
+                            <h4 class="fw-bold text-dark">Ahorro Seguro</h4>
+                            <p class="text-muted mb-0">
+                                Cuentas de ahorro estables y accesibles para todos nuestros socios. Un proceso de apertura transparente con plena disponibilidad de tus recursos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Inversiones -->
+                    <div class="col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm p-4 text-center transition-card">
+                            <div class="d-inline-flex align-items-center justify-content-center text-warning rounded-circle mb-4 mx-auto" style="width: 80px; height: 80px; background-color: rgba(255, 193, 7, 0.1);">
+                                <i class="bi bi-graph-up-arrow fs-1"></i>
+                            </div>
+                            <h4 class="fw-bold text-dark">Inversiones a Plazo Fijo</h4>
+                            <p class="text-muted mb-0">
+                                Pólizas de inversión con tasas altamente competitivas. Al adquirir tu product recibes un certificado válido que detalla tu capital y rendimiento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tasas de Interés e Inversión -->
+        <section id="tasas" class="py-5 bg-white">
+            <div class="container py-4">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-5">
+                        <span class="text-primary fw-bold text-uppercase tracking-wider small d-block mb-2">Rentabilidad Garantizada</span>
+                        <h2 class="fw-bold text-dark mb-4">Haz crecer tu dinero de forma segura</h2>
+                        <p class="text-muted mb-4">
+                            Nuestras inversiones a plazo fijo son una opción rentable donde los fondos se utilizan de manera transparente para financiar y apoyar proyectos productivos en la comunidad.
+                        </p>
+                        <div class="p-3 bg-light rounded-3 border-start border-4 border-success mb-3">
+                            <h6 class="fw-bold text-dark mb-1">Respaldo SEPS</h6>
+                            <p class="small text-muted mb-0">Cumplimos con las leyes vigentes garantizando la devolución íntegra de fondos al vencimiento.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="card border-0 shadow rounded-4 overflow-hidden">
+                            <div class="bg-dark text-white p-4">
+                                <h5 class="mb-1 fw-bold">Rendimiento Actual de Pólizas</h5>
+                                <p class="mb-0 text-white-50 small">Intereses abonados de forma puntual al finalizar el período contratado</p>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-striped table-hover mb-0 align-middle">
+                                    <thead class="table-light">
+                                        <tr>
+                                            <th class="ps-4 py-3">Plazo Elegido</th>
+                                            <th class="py-3 text-center">Tasa Anual</th>
+                                            <th class="pe-4 py-3 text-end">Beneficios</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="ps-4 py-3 fw-bold">Plazos Cortos (Desde 90 días)</td>
+                                            <td class="text-center text-primary fw-bold fs-5">5% a 6%</td>
+                                            <td class="pe-4 text-end text-muted small">Certificado Inmediato</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3 fw-bold">Plazos Medios</td>
+                                            <td class="text-center text-primary fw-bold fs-5">7% a 10%</td>
+                                            <td class="pe-4 text-end text-muted small">Alta rentabilidad</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="ps-4 py-3 fw-bold">Plazo Largo (365 días)</td>
+                                            <td class="text-center text-success fw-bold fs-4">11% a 12%*</td>
+                                            <td class="pe-4 text-end text-success small fw-bold">Rendimiento Máximo</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="card-footer bg-light p-3 text-center">
+                                <small class="text-muted">* Depende del monto del capital dispuesto por el socio.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nosotros e Historia -->
+        <section id="nosotros" class="showcase bg-light border-top border-bottom">
+            <div class="container-fluid p-0">
+                <!-- Quiénes somos -->
+                <div class="row g-0 align-items-center">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/Equipo.png'); min-height: 450px; background-size: cover; background-position: center;"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text p-5">
+                        <span class="text-primary fw-bold text-uppercase small">Nuestra Historia</span>
+                        <h2 class="fw-bold text-dark mb-3 mt-1">¿Quiénes Somos?</h2>
+                        <p class="lead text-muted mb-4 fs-6 text-start">
+                            La Entidad Financiera <strong>C.A CrediLibertadores</strong> fue fundada el 4 de abril de 2024. Surgimos como una iniciativa de la <em>Cooperativa de Buses Los Libertadores</em>, heredando su espíritu de compromiso colectivo y empoderamiento de la sociedad.
+                        </p>
+                        <p class="text-muted fs-6">
+                            Nos dedicamos a construir bienestar competitivo y justo mediante la promoción de la educación financiera, asegurando que cada socio cuente con las herramientas necesarias para tomar decisiones informadas.
+                        </p>
+                    </div>
+                </div>
+                <!-- Misión y Visión -->
+                <div class="row g-0 align-items-stretch bg-white">
+                    <div class="col-lg-6 p-5 border-end">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary text-white p-3 rounded-3 me-3"><i class="bi bi-bullseye fs-3"></i></div>
+                            <h3 class="fw-bold text-dark m-0">Misión</h3>
+                        </div>
+                        <p class="text-muted fs-6 text-start">
+                            Mejorar las condiciones de vida de todos nuestros asociados con productos y servicios financieros innovadores que optimicen la experiencia del cliente, operando siempre bajo estrictos marcos de transparencia, ética y confianza mutua.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 p-5">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary text-white p-3 rounded-3 me-3"><i class="bi bi-eye fs-3"></i></div>
+                            <h3 class="fw-bold text-dark m-0">Visión</h3>
+                        </div>
+                        <p class="text-muted fs-6 text-start">
+                            Ser una institución líder en la provisión de créditos y servicios financieros, reconocida por su excelencia y compromiso inquebrantable con el sector de transporte urbano, impulsando la transformación digital para optimizar la eficiencia y productividad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Alianza de Seguros -->
+        <section class="py-5 bg-white text-center">
+            <div class="container py-3">
+                <div class="card border-0 bg-light p-4 shadow-sm rounded-4 mx-auto" style="max-width: 800px;">
+                    <div class="row align-items-center g-4">
+                        <div class="col-md-3">
+                            <i class="bi bi-shield-lock text-primary" style="font-size: 4.5rem;"></i>
+                        </div>
+                        <div class="col-md-9 text-md-start">
+                            <span class="badge bg-success mb-2">Protección Colectiva</span>
+                            <h4 class="fw-bold text-dark">Respaldo Internacional de Seguros</h4>
+                            <p class="text-muted small mb-3">
+                                Ofrecemos seguridad y protección integral a nuestros socios mediante el respaldo de la aseguradora estadounidense <strong>Prudential Financial, Inc.</strong> (con más de 140 años de trayectoria global), garantizando acceso a seguros de vida, médicos y funerarios gestionados bajo absoluta confidencialidad.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Valores de la Institución -->
+        <section class="py-5 bg-light text-center">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <h2 class="fw-bold text-dark">Valores Institucionales</h2>
+                    <p class="text-muted mt-1">El motor que guía cada una de nuestras decisiones comunitarias</p>
+                </div>
+
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4">
+                        <div class="p-4 bg-white rounded-4 shadow-sm h-100 transition-card">
+                            <div class="mb-3 text-primary"><i class="bi bi-file-earmark-ruled fs-2"></i></div>
+                            <h5 class="fw-bold text-dark">Transparencia</h5>
+                            <p class="text-muted small mb-0">Información precisa, clara y sin letras chicas para salvaguardar tu tranquilidad financiera.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-4 bg-white rounded-4 shadow-sm h-100 transition-card">
+                            <div class="mb-3 text-primary"><i class="bi bi-heart-pulse fs-2"></i></div>
+                            <h5 class="fw-bold text-dark">Compromiso</h5>
+                            <p class="text-muted small mb-0">Nacimos para ser un motor de desarrollo, buscando el constante progreso socioeconómico de los asociados.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="p-4 bg-white rounded-4 shadow-sm h-100 transition-card">
+                            <div class="mb-3 text-primary"><i class="bi bi-people-fill fs-2"></i></div>
+                            <h5 class="fw-bold text-dark">Confianza Colectiva</h5>
+                            <p class="text-muted small mb-0">Construimos relaciones duraderas con comerciantes y gremios, logrando metas conjuntas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Preguntas Frecuentes (FAQ) -->
+        <section id="faq" class="py-5 bg-white">
+            <div class="container py-4">
+                <div class="text-center mb-5">
+                    <span class="text-primary fw-bold text-uppercase small">Centro de Ayuda</span>
+                    <h2 class="fw-bold text-dark mt-1">Preguntas Frecuentes</h2>
+                    <p class="text-muted">Resolvemos tus dudas institucionales de manera rápida y transparente</p>
+                    <div class="bg-primary rounded mx-auto" style="width: 60px; height: 4px;"></div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion shadow-sm rounded-4 overflow-hidden" id="accordionFAQ">
+                            
+                            <!-- Pregunta 1 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm rounded-4">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button fw-bold text-dark bg-light rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        ¿Qué es una Caja de Ahorro y cómo se diferencia de un banco?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body text-muted lh-base">
+                                        A diferencia de un banco tradicional cuyo fin principal es maximizar las ganancias de sus accionistas privados, una <strong>Caja de Ahorro como CrediLibertadores</strong> se fundamenta en la economía popular y solidaria. Aquí, nuestros clientes son <strong>socios</strong>. Los recursos captados se reinvierten directamente en la comunidad mediante créditos productivos para transportistas y comerciantes locales, ofreciendo tasas de inversión más competitivas y trámites mucho más ágiles y cercanos.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pregunta 2 -->
+                            <div class="accordion-item border-0 mb-2 shadow-sm rounded-4">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed fw-bold text-dark bg-light rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        ¿Cuánto es el monto mínimo para abrir una cuenta?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body text-muted lh-base">
+                                        Promovemos la inclusión financiera facilitando el acceso a nuestros servicios. Puedes realizar la apertura de tu cuenta de <strong>Ahorro Seguro</strong> con un monto mínimo muy accesible. Te invitamos a visitarnos en nuestra Oficina Matriz o escribirnos por nuestros canales oficiales para detallarte los requisitos vigentes (cédula y planilla de servicios básicos).
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pregunta 3 -->
+                            <div class="accordion-item border-0 shadow-sm rounded-4">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed fw-bold text-dark bg-light rounded-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        ¿Tienen banca electrónica o atención los sábados?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionFAQ">
+                                    <div class="accordion-body text-muted lh-base">
+                                        Actualmente, nuestro horario de atención en Oficina Matriz es de lunes a viernes de 08:00 AM a 06:00 PM para brindarte asesoría presencial 100% personalizada. Como parte de nuestra visión estratégica de <strong>transformación digital</strong>, nos encontramos desarrollando nuevos canales electrónicos de consulta. Mientras tanto, mantenemos una atención ágil y directa para cotizaciones y soporte a través de nuestra línea oficial de WhatsApp.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Mapa Estática Informativa -->
+        <section class="py-5 bg-dark text-white">
+            <div class="container py-4">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <span class="text-primary fw-bold text-uppercase tracking-wider small d-block mb-2">Ubicación</span>
+                        <h2 class="fw-bold text-white mb-4">Encuéntranos en Ambato</h2>
+                        <p class="text-white-50 mb-4">Nuestra oficina central se encuentra estratégicamente ubicada para la comodidad de todos nuestros socios transportistas y comerciantes.</p>
+                        <div class="d-flex align-items-start">
+                            <div class="bg-primary bg-opacity-10 text-primary p-3 rounded-3 me-3 border border-primary border-opacity-25">
+                                <i class="bi bi-geo-alt-fill fs-4"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-1 fw-bold text-white">Dirección</h5>
+                                <p class="text-white-50 small mb-0">C. Sucre 09-17 y Quito<br>(Frente a la iglesia Adventista)<br>Ambato - Ecuador</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="ratio ratio-16x9 rounded-4 overflow-hidden shadow-lg border border-secondary border-opacity-50">
+                            <iframe title="Ubicación de CrediLibertadores en Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.2844819777974!2d-78.6253907!3d-1.2415132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91d38195eb484433%3A0x67ee1c0eb11c6d8d!2sSucre%20%26%20Quito%2C%20Ambato!5e0!3m2!1ses!2sec!4v1710000000000!5m2!1ses!2sec" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- VENTANA EMERGENTE (MODAL) DE CONTACTO -->
+        <div class="modal fade" id="contactoModal" tabindex="-1" aria-labelledby="contactoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content border-0 shadow-lg rounded-4">
+                    <div class="modal-header bg-primary text-white p-4">
+                        <h5 class="modal-title fw-bold id="contactoModalLabel">
+                            <i class="bi bi-person-lines-fill me-2"></i>Información de contacto
+                        </h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-4 bg-light">
+                        <div class="text-center mb-4">
+                            <h4 class="fw-bold text-dark mb-1">Credilibertadores</h4>
+                            <span class="badge bg-success bg-opacity-10 text-success rounded-pill px-3 py-2">Caja de Ahorro</span>
+                        </div>
+                        
+                        <!-- Lista de datos -->
+                        <div class="card border-0 shadow-sm rounded-4 p-3 mb-3 bg-white">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 me-3">
+                                    <i class="bi bi-geo-alt-fill fs-5"></i>
+                                </div>
+                                <div>
+                                    <small class="text-muted d-block">Dirección Principal</small>
+                                    <span class="text-dark fw-semibold">C. Sucre 09-17 y Quito (Frente a la iglesia Adventista)</span>
+                                </div>
+                            </div>
+                            
+                            <hr class="text-muted opacity-25 my-2">
+
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 me-3">
+                                    <i class="bi bi-telephone-fill fs-5"></i>
+                                </div>
+                                <div>
+                                    <small class="text-muted d-block">Teléfono Celular</small>
+                                    <span class="text-dark fw-semibold">095 880 5350</span>
+                                </div>
+                            </div>
+
+                            <hr class="text-muted opacity-25 my-2">
+
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 me-3">
+                                    <i class="bi bi-whatsapp fs-5"></i>
+                                </div>
+                                <div>
+                                    <small class="text-muted d-block">WhatsApp Internacional</small>
+                                    <span class="text-dark fw-semibold">+593 95 880 5350</span>
+                                </div>
+                            </div>
+
+                            <hr class="text-muted opacity-25 my-2">
+
+                            <div class="d-flex align-items-center mb-2">
+                                <div class="bg-primary bg-opacity-10 text-primary p-2 rounded-3 me-3">
+                                    <i class="bi bi-envelope-fill fs-5"></i>
+                                </div>
+                                <div>
+                                    <small class="text-muted d-block">Correo Electrónico</small>
+                                    <a href="mailto:credilibertadores@hotmail.com" class="text-decoration-none fw-semibold text-primary">credilibertadores@hotmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="text-center mt-2">
+                            <small class="text-muted"><i class="bi bi-shield-check me-1"></i>Atención personalizada de Lunes a Viernes</small>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0 bg-light p-3 justify-content-center">
+                        <a href="https://wa.me/593958805350" target="_blank" rel="noopener" class="btn btn-success w-100 rounded-pill fw-bold py-2 shadow-sm">
+                            <i class="bi bi-whatsapp me-2"></i>Escríbenos directamente
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="py-4 bg-light border-top">
+            <div class="container">
+                <div class="row align-items-center text-center text-md-start">
+                    <div class="col-md-6">
+                        <ul class="list-inline mb-2">
+                            <li class="list-inline-item"><a href="#inicio" class="text-decoration-none text-muted small">Inicio</a></li>
+                            <li class="list-inline-item text-muted small">·</li>
+                            <li class="list-inline-item"><a href="#servicios" class="text-decoration-none text-muted small">Servicios</a></li>
+                            <li class="list-inline-item text-muted small">·</li>
+                            <li class="list-inline-item"><a href="#tasas" class="text-decoration-none text-muted small">Tasas</a></li>
+                            <li class="list-inline-item text-muted small">·</li>
+                            <li class="list-inline-item"><a href="#faq" class="text-decoration-none text-muted small">FAQ</a></li>
+                        </ul>
+                        <p class="text-muted small mb-0">&copy; CrediLibertadores 2026. Todos los derechos reservados en cumplimiento de políticas de protección al socio.</p>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                        <a href="https://www.facebook.com/profile.php?id=61559400604423" target="_blank" rel="noopener" class="text-muted me-3 fs-4 text-decoration-none"><i class="bi-facebook"></i></a>
+                        <a href="https://www.tiktok.com/@credilibertadores" target="_blank" rel="noopener" class="text-muted me-3 fs-4 text-decoration-none"><i class="bi-tiktok"></i></a>
+                        <a href="https://wa.me/593958805350" target="_blank" rel="noopener" class="text-success fs-4 text-decoration-none"><i class="bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Botón Flotante de WhatsApp -->
+        <a href="https://wa.me/593958805350?text=Hola,%20deseo%20más%20información%20sobre%20sus%20servicios%20financieros" 
+           class="btn btn-success position-fixed bottom-0 end-0 m-4 rounded-circle d-flex align-items-center justify-content-center shadow-lg" 
+           target="_blank" rel="noopener"
+           style="width: 60px; height: 60px; z-index: 1050; font-size: 1.8rem;">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+
+        <!-- Bootstrap Bundle with Popper JS via CDN -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+
+    </body>
+</html>
