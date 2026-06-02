@@ -11042,3 +11042,55 @@ body {
 .icon-mision {
     background-color: #3BB54A;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+section {
+    scroll-margin-top: 80px;
+}
+.transition-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.transition-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.bg-gradient-dark {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/img/bg-masthead.jpg') no-repeat center center;
+    background-size: cover;
+}
+/* Mejoras de diseño para los botones principales */
+.btn-hero {
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+.btn-hero-credit {
+    background-color: #0d6efd;
+    color: #ffffff !important;
+}
+.btn-hero-credit:hover {
+    background-color: #0b5ed7;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(13, 110, 253, 0.4);
+}
+.btn-hero-savings {
+    background-color: #198754;
+    color: #ffffff !important;
+}
+.btn-hero-savings:hover {
+    background-color: #157347;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(25, 135, 84, 0.4);
+}
+.btn-hero-invest {
+    background-color: #ffc107;
+    color: #000000 !important;
+}
+.btn-hero-invest:hover {
+    background-color: #ffca2c;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 15px rgba(255, 193, 7, 0.4);
+}
